@@ -1,5 +1,5 @@
 {
-  "name": "inlang-plugin-json",
+  "name": "@erskingardner/inlang-plugin-json",
   "type": "module",
   "module": "dist/index.js",
   "engines": {
@@ -25,5 +25,21 @@
     "memfs": "^3.4.12",
     "typescript": "^4.9.4",
     "vitest": "^0.26.2"
-  }
+  },
+  "description": "This plugin reads and writes resources that are stored as JSON. The following features are supported:",
+  "version": "2.0.1",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erskingardner/inlang-plugin-json.git"
+  },
+  "keywords": [
+    "inlang"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erskingardner/inlang-plugin-json/issues"
+  },
+  "homepage": "https://github.com/erskingardner/inlang-plugin-json#readme"
 }
