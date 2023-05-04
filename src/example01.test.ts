@@ -7,8 +7,8 @@ test("inlang's config validation should pass", async () => {
   const env = await mockEnvironment({
     copyDirectory: {
       fs: fs,
-      paths: ["./dist", "./example01"],
-    },
+      paths: ["./dist", "./example01"]
+    }
   });
 
   const module = await import("../example01/inlang.config.js");
